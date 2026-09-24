@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 public class HelloJavaFX extends Application {
     @Override
     public void start(Stage stage) {
-        String originalMessage = ("Welcome , Gabriel Chilando!");
+        String originalMessage = ("Welcome , Jaineck Chipapa!");
         Button startButton = new Button("Start");
         Label message = new Label(originalMessage);
 
@@ -25,7 +25,7 @@ public class HelloJavaFX extends Application {
         layout.setAlignment(Pos.CENTER);
         layout.getChildren().addAll(message, startButton, resetButton);
         Scene scene = new Scene(layout, 500, 300);
-        stage.setTitle("My First JavaFX Application-Student number 202505771");
+        stage.setTitle("My First JavaFX Application-Student number 202507459");
         stage.setScene(scene);
         stage.show();
     }
